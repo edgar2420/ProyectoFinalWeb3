@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billeteras", "Billeteras\Billeteras.csproj", "{6019A374-0BE9-409F-A67D-0F3F7CC1C621}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6019A374-0BE9-409F-A67D-0F3F7CC1C621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6019A374-0BE9-409F-A67D-0F3F7CC1C621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6019A374-0BE9-409F-A67D-0F3F7CC1C621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6019A374-0BE9-409F-A67D-0F3F7CC1C621}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C54D62C1-FAC9-4B9F-BBAE-87B4F41A794E}
+	EndGlobalSection
+EndGlobal
