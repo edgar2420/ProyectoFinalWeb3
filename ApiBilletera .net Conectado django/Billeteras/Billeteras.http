@@ -1,0 +1,6 @@
+@Billeteras_HostAddress = http://localhost:5239
+
+GET {{Billeteras_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
