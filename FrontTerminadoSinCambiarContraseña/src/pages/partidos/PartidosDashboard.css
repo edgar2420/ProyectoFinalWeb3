@@ -1,0 +1,152 @@
+/* Fondo completo de la pantalla */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    width: 100%;
+    max-width: 100%;
+    height: 100vh; /* Ocupa toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  /* Encabezado */
+  h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0; /* Menor margen superior e inferior */
+  }
+  
+  /* Botones superiores */
+  .text-end .btn {
+    font-size: 1rem;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  /* Botones más alineados y compactos */
+  .text-end {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Asegura que se ajusten correctamente */
+    margin-bottom: 10px; /* Espacio más pequeño hacia abajo */
+  }
+  
+  /* Sección de partidos */
+  .list-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); /* Ajustable */
+    gap: 20px;
+    width: 100%;
+    max-width: 1300px;
+    margin-top: 10px; /* Más arriba */
+  }
+  
+  /* Tarjeta de cada partido */
+  .list-group-item {
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .list-group-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Imágenes de los equipos */
+  .list-group-item img {
+    width: 100px; /* Ajustar tamaño de las imágenes */
+    height: 100px;
+    object-fit: contain;
+    border: 3px solid #ddd;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 10px; /* Espacio entre imágenes */
+  }
+  
+  /* Información del partido */
+  .list-group-item div:first-child {
+    display: flex;
+    align-items: center;
+  }
+  
+  .list-group-item p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .list-group-item strong {
+    font-size: 1.4rem;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Botones de acciones */
+  .btn-sm {
+    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+  }
+  
+  .btn-primary:hover,
+  .btn-danger:hover {
+    opacity: 0.9;
+  }
+  
+  /* Ajuste del modal */
+  .modal-content {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-header {
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .modal-footer {
+    background-color: #f1f1f1;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

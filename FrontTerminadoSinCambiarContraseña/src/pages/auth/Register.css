@@ -1,0 +1,25 @@
+/* Estilo general para el body */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    min-height: 100vh;       /* Altura total de la pantalla */
+    background: linear-gradient(to right, #4e54c8, #8f94fb); /* Gradiente de fondo */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Contenedor principal del registro */
+  .register-container {
+    width: 100%;
+    max-width: 400px; /* Ancho máximo */
+    padding: 20px;
+  }
+  
+  /* Estilo para la tarjeta */
+  .card {
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 15px;       /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+  
